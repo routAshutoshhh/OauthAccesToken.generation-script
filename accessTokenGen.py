@@ -17,7 +17,7 @@ REDIRECT_URI = os.getenv("REDIRECT_URI")
 #defining the scope of the access token - means which api we want to access and want the permission for 
 SCOPES = ["https://mail.google.com/"]
 
-#making the client config dictionary
+#making the client config dictionary as  this is how the flow method accepts the client data
 client_config ={
     "installed":{
         "client_id": CLIENT_ID,
